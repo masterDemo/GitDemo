@@ -5,12 +5,24 @@ public class Test2 {
 
 	public static void main(String[] args) {
 		
-		Test1 t1=new Test1();
-		int c=t1.add(10,20);
-		System.out.println("the sum is "+c);
+		
+		Calc c1=new Calc();
+		int f=c1.add(10, 20);
+		System.out.println("sum is "+f);
+		int r=c1.sub(30,20);
+		System.out.println("sub is "+r);
+		
+		
+		
+		
+	
 		
 
 	}
+	
+}
+class Calc
+	{
 
 	public int add(int a, int b)
 	{
@@ -18,6 +30,11 @@ public class Test2 {
 		return c;
 	}
 	
+	public int sub(int e, int f)
+	{
+		int h=e-f;
+		return h;
+	}
 	
 	
 }
